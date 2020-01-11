@@ -9,11 +9,11 @@
 <form action="register" method="POST">
 
 	{% csrf_token %}
-	<input type="text" name="First_name" placeholder="First Name">
-	<input type="text" name="First_name" placeholder="First Name">
-	<input type="text" name="First_name" placeholder="First Name">
-	<input type="text" name="First_name" placeholder="First Name">
-	<input type="text" name="First_name" placeholder="First Name">
+	<input type="text" name="First_name" placeholder="First Name" required=""><br>
+	<input type="text" name="last_name" placeholder="First Name" required=""><br>
+	<input type="Email" name="Email" placeholder="Email" required=""><br>
+	<input type="Password" name="Password" placeholder="Passwor" required=""><br>
+	<input type="Password" name="Password2" placeholder="Confrim Passowrd" required=""><br>
 	<button>Submit</button>
 	
 </form>
